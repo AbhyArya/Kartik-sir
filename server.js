@@ -5,7 +5,7 @@ const Razorpay = require("razorpay");
 const app = express();
 const crypto = require("crypto");
 const path = require("path");
-const port = process.env.PORT || 5000;
+const port = process.env.PORT;
 
 app.use(express.json({ extended: false }));
 app.use(
